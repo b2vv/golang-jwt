@@ -1,0 +1,4 @@
+.idea
+configs
+!configs/main.yml
+!configs/.env.back

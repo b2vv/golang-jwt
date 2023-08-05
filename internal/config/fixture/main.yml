@@ -1,0 +1,21 @@
+http:
+  port: 80
+  max_header_megabyte: 10
+  read_timeout: 20s
+  write_timeout: 20s
+
+auth:
+  verification_code_length: 150
+
+jwt:
+  access_token:
+    private_key: key
+    public_key: key
+    expired_in: 15m
+    max_age: 15m
+
+  refresh_token:
+    private_key: key
+    public_key: key
+    expired_in: 60m
+    max_age: 60m

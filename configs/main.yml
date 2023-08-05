@@ -1,0 +1,19 @@
+http:
+  port: 8080
+  max_header_megabyte: 1
+  read_timeout: 10s
+  write_timeout: 10s
+
+auth:
+  verification_code_length: 8
+
+jwt:
+  access_token:
+    private_key:
+    public_key:
+    max_age: 2h
+
+  refresh_token:
+    private_key:
+    public_key:
+    max_age: 720h

@@ -1,0 +1,11 @@
+http:
+  port: 4051
+
+jwt:
+  access_token:
+    private_key: test-2
+    public_key: test-3
+
+  refresh_token:
+    private_key: test-2
+    public_key: test-3
